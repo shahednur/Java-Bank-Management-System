@@ -57,6 +57,6 @@ public class UserService {
                 .email(user.getEmail())
                 .phone(user.getPhone())
                 .userType(UserResponseDTO.UserType.valueOf(user.getUserType().name()))
-                .status(UserResponseDTO.UserStatus.)
+                .status(UserResponseDTO.UserStatus.);
     }
 }
